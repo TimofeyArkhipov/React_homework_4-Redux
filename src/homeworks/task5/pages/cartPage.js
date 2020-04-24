@@ -45,7 +45,7 @@ function CartPage({products, cart,  deleteFromCart, increaseQuantity, decreaseQu
 
     console.log(cartArray);
     return(
-        <div>
+         <div className='page'>
             {cartArray.length > 0 ?
             cartArray.map(item =>
                 <Card>
